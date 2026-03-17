@@ -355,22 +355,22 @@ section{padding:84px 6%}
 .cti svg{width:13px;height:13px;stroke:rgba(255,255,255,.58);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 
 /* ── FOOTER ── */
-footer{background:var(--charcoal);padding:52px 6% 22px}
-.ft{display:grid;grid-template-columns:2fr 1fr 1fr;gap:42px;padding-bottom:38px;border-bottom:1px solid rgba(255,255,255,.07);margin-bottom:22px}
+footer{background:#fff;padding:52px 6% 22px}
+.ft{display:grid;grid-template-columns:2fr 1fr 1fr;gap:42px;padding-bottom:38px;border-bottom:1px solid var(--lgray);margin-bottom:22px}
 .fb{display:flex;align-items:center;gap:10px;margin-bottom:13px}
 /* ── FOOTER LOGO SLOT ── Replace .fb-icon with <img src="your-logo.png" style="height:34px;width:auto;"> */
 .fb-icon{width:36px;height:36px;background:var(--orange);border-radius:6px;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:.8rem;font-weight:800;color:#fff}
 .fb-name{font-family:var(--serif);font-size:1.02rem;font-weight:700;color:#fff}
-.fa{font-size:.78rem;color:rgba(255,255,255,.34);line-height:1.8;max-width:275px;margin-bottom:18px}
+.fa{font-size:.78rem;color:var(--mgray);line-height:1.8;max-width:275px;margin-bottom:18px}
 .fcontacts{display:flex;flex-direction:column;gap:8px}
-.fcontacts a{display:flex;align-items:center;gap:7px;color:rgba(255,255,255,.55);text-decoration:none;font-size:.81rem;font-weight:500;transition:color .2s}
-.fcontacts a:hover{color:#fff}
+.fcontacts a{display:flex;align-items:center;gap:7px;color:var(--mgray);text-decoration:none;font-size:.81rem;font-weight:500;transition:color .2s}
+.fcontacts a:hover{color:var(--dark)}
 .fcontacts a svg{width:11px;height:11px;stroke:var(--orange-mid);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
-.fc h4{font-size:.6rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.18);margin-bottom:13px}
+.fc h4{font-size:.6rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--mgray);margin-bottom:13px}
 .fc ul{list-style:none;display:flex;flex-direction:column;gap:9px}
-.fc ul a{color:rgba(255,255,255,.42);text-decoration:none;font-size:.79rem;transition:color .2s}
-.fc ul a:hover{color:#fff}
-.fbot{display:flex;align-items:center;justify-content:space-between;font-size:.68rem;color:rgba(255,255,255,.18);flex-wrap:wrap;gap:7px}
+.fc ul a{color:var(--mgray);text-decoration:none;font-size:.79rem;transition:color .2s}
+.fc ul a:hover{color:var(--dark)}
+.fbot{display:flex;align-items:center;justify-content:space-between;font-size:.68rem;color:var(--mgray);flex-wrap:wrap;gap:7px}
 
 /* ── REVEAL ── */
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
@@ -417,10 +417,7 @@ footer{background:var(--charcoal);padding:52px 6% 22px}
       <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.5 11.61 19.8 19.8 0 01.5 3a2 2 0 012-2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.337 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
       (910) 308-0462
     </a>
-    <a href="/cdn-cgi/l/email-protection#f990979f96b9989589919889958c949b90979e8a9c8b8f909a9c8ad79a9694">
-      <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-      <span class="__cf_email__" data-cfemail="b4dddad2dbf4d5d8c4dcd5c4d8c1d9d6dddad3c7d1c6c2ddd7d1c79ad7dbd9">[email&#160;protected]</span>
-    </a>
+    
   </div>
   <div class="topbar-right">Licensed &amp; Insured &nbsp;|&nbsp; Free Estimates &nbsp;|&nbsp; Smithfield &amp; Surrounding Areas</div>
 </div>
@@ -809,7 +806,6 @@ footer{background:var(--charcoal);padding:52px 6% 22px}
           <div class="fg"><label>Last Name</label><input type="text" placeholder="Smith" required/></div>
         </div>
         <div class="fg"><label>Phone Number</label><input type="tel" id="phoneInput" placeholder="(910) 000-0000" required/></div>
-        <div class="fg"><label>Email Address</label><input type="email" placeholder="you@email.com"/></div>
         <div class="fg"><label>Property Address</label><input type="text" placeholder="Street address or city/area" required/></div>
         <div class="fg">
           <label>Service Needed</label>
@@ -871,7 +867,7 @@ footer{background:var(--charcoal);padding:52px 6% 22px}
       <p class="fa">Licensed and insured with over 10 years of professional plumbing experience. Serving Smithfield and surrounding areas with fast, reliable service and upfront honest pricing — every time.</p>
       <div class="fcontacts">
         <a href="tel:9103080462"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.5 11.61 19.8 19.8 0 01.5 3a2 2 0 012-2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.337 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>(910) 308-0462</a>
-        <a href="/cdn-cgi/l/email-protection#3d54535b527d5c514d555c4d5148505f54535a4e584f4b545e584e135e5250"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span class="__cf_email__" data-cfemail="e980878f86a9888599818899859c848b80878e9a8c9b9f808a8c9ac78a8684">[email&#160;protected]</span></a>
+        
       </div>
     </div>
     <div class="fc">
@@ -900,11 +896,11 @@ footer{background:var(--charcoal);padding:52px 6% 22px}
   <div class="fbot">
     <span>&copy; 2025 Alpha Plumbing &amp; Services. All rights reserved.</span>
     <span>(910) 308-0462 &nbsp;|&nbsp; Smithfield, NC &amp; Surrounding Areas</span>
-    <span>Built by <a href="https://www.onstra.world" target="_blank" rel="noopener" style="color:rgba(255,255,255,.45);text-decoration:none;font-weight:600;transition:color .2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,.45)'">Onstra</a></span>
+    <span>Built by <a href="https://www.onstra.world" target="_blank" rel="noopener" style="color:var(--dark);text-decoration:none;font-weight:600;transition:color .2s;" onmouseover="this.style.color='var(--orange)'" onmouseout="this.style.color='var(--dark)'">Onstra</a></span>
   </div>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
 // MOBILE MENU
 document.getElementById('menuBtn').addEventListener('click',()=>document.getElementById('mobileMenu').classList.add('open'));
 document.getElementById('menuClose').addEventListener('click',()=>document.getElementById('mobileMenu').classList.remove('open'));
